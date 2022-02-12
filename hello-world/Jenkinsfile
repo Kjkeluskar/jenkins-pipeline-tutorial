@@ -5,6 +5,7 @@ pipeline {
             steps {
                 echo 'Run the static analysis to the code' 
                 echo 'Ketaki Keluskars file'
+                echo 'post changes'
             }
         }
         stage('Compile') {
